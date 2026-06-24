@@ -1,0 +1,16 @@
+{
+  "name": "saihm-erasure-receipt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Runnable proof of cryptographic erasure (GDPR Art. 17) for SAIHM: seal a record, destroy its wrapped key, and emit a tamper-evident, reproducible erasure receipt. Offline by default; the endpoint only ever holds ciphertext.",
+  "scripts": { "start": "node demo.mjs", "serve": "node server.mjs" },
+  "license": "Apache-2.0",
+  "author": "SAIHM",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@saihm/mcp-server-pro": "^0.1.0",
+    "@saihm/client-pro": "^0.1.1"
+  }
+}
