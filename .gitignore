@@ -2,4 +2,3 @@ node_modules/
 .venv/
 __pycache__/
 *.pyc
-package-lock.json
